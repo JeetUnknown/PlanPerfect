@@ -36,7 +36,7 @@
                 %>
                 <script>
                 alert("Incorrect password.");
-                window.location.href="login.html";
+                window.location.href="index.html";
                 </script>
                 <%
             }
@@ -44,7 +44,7 @@
             %>
             <script>
                 alert("User ID does not exist.");
-                window.location.href="login.html";
+                window.location.href="index.html";
             </script>
             <%
         }
