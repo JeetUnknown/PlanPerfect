@@ -27,7 +27,7 @@
          %>
             <script>
                 alert("Registration successful.");
-                window.location.href="login.html";
+                window.location.href="index.html";
             </script>
         <%
             pstmt.close();
