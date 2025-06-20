@@ -1,0 +1,102 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI';
+  background: #93c5fd;
+}
+
+.container {
+  background-color: #ffffff;
+  color: #37474f;
+  padding: 30px;
+  width: 500px;
+  margin: 50px auto;
+  border-radius: 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  margin-top: 0;
+  color: #2196f3;
+  font-size: 24px;
+}
+
+label {
+  display: block;
+  margin: 10px 0 5px;
+  font-weight: 600;
+  color: #37474f;
+}
+
+input[type="text"],
+input[type="datetime-local"],
+textarea,
+select {
+  padding: 10px;
+  width: 95%;
+  background-color: #e3f2fd;
+  border: 1px solid #b0bec5;
+  color: #37474f;
+  border-radius: 6px;
+  font-size: 14px;
+  transition: border 0.3s;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+  border-color: #2196f3;
+  outline: none;
+}
+
+textarea {
+  resize: vertical;
+  height: 60px;
+}
+
+.select-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin: 10px 0;
+}
+
+.select-group label {
+  font-weight: normal;
+  color: #37474f;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 25px;
+}
+
+.reset-btn {
+  background-color: #90a4ae;
+  color: white;
+  padding: 10px 24px;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.3s;
+}
+
+.reset-btn:hover {
+  background-color: #78909c;
+}
+
+.create-btn {
+  background-color: #2196f3;
+  color: white;
+  padding: 10px 24px;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.3s;
+}
+
+.create-btn:hover {
+  background-color: #1976d2;
+}

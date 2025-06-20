@@ -1,0 +1,55 @@
+body {
+    background-image: url(pics/Windows\ 11\ Wallpapers\ 7.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.login-signup {
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    flex-direction: column;
+    text-align: left;
+    color: #fff;
+    padding: 40px;
+    width: 250px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.login-signup input {
+    width: 250px;
+    border-radius: 25px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    height: 30px;
+    align-items: left;
+    justify-content: left;
+}
+
+
+.login-signup button {
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 25px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    font-size: 16px;
+    font-weight: bold;
+    background: rgba(255, 255, 255, 0.1);
+    color: white;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.login-signup button:hover {
+    background: linear-gradient(to right, #3841c400, #5a5ad3);
+}

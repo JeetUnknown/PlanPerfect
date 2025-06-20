@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Create Event</title>
+  <link rel="icon" type="image/png" href="logo1.png">
+  <link rel="stylesheet" href="form.css">
+</head>
+<body>
+  <div class="container">
+    <h2>Create Task</h2>
+    <form method="post" action="create_task.jsp">
+      <label for="title">Title:</label>
+      <input type="text" id="title" name="title" minlength="5" maxlength="23" required>
+
+      <label for="end">Deadline:</label>
+      <input type="datetime-local" id="end" name="deadline">
+
+      <label for="notes">Notes:</label>
+      <textarea id="notes" placeholder="Add Notes" name="note" maxlength="100"></textarea>
+
+      <label for="reminder">Set reminder?</label>
+      <select id="reminder" name="reminder">
+        <option>6 hrs before</option>
+        <option>3 hrs before</option>
+        <option>1 hour before</option>
+        <option>set no reminder</option>
+      </select>
+
+      <div class="buttons">
+        <button type="reset" class="reset-btn">Reset</button>
+        <button type="submit" class="create-btn">Create</button>
+      </div>
+    </form>
+  </div>
+</body>
+</html>
